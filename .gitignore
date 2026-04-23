@@ -1,0 +1,46 @@
+# Build directory
+build/
+
+# Compiled binary
+concert_booking
+concert_booking.exe
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Data directory (bookings persist locally, not tracked)
+data/bookings.csv
+
+# Keep the data folder itself
+!data/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+*.vcxproj
+*.vcxproj.filters
+.cursor/
+
+# Compiled object files
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
