@@ -3,7 +3,7 @@
 A C++ CLI application simulating real-world concert ticket sales with group bookings,
 waitlists, cancellations with auto-rebooking, and persistent CSV storage.
 
-This documentation for the project id AI generated, I recommend running the project first hand.
+This documentation for the project is AI generated, I recommend running the project first hand.
 
 ---
 
