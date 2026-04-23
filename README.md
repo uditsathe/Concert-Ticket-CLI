@@ -1,7 +1,9 @@
-# 🎵 Concert Ticket Booking System
+# 🎵 Concert Ticket Booking System 
 
-A C++17 CLI application simulating real-world concert ticket sales with group bookings,
+A C++ CLI application simulating real-world concert ticket sales with group bookings,
 waitlists, cancellations with auto-rebooking, and persistent CSV storage.
+
+This documentation for the project id AI generated, I recommend running the project first hand.
 
 ---
 
@@ -46,7 +48,7 @@ concert_booking.exe
 
 ---
 
-## Example Session
+## Example Session (AI was used to generate this example after implmentation, actual view will differ a bit)
 
 ```
 ╔══════════════════════════════════════════════╗
@@ -136,12 +138,4 @@ Enter Ticket ID to look up: TKT-00001
 
 ## Data Persistence
 
-All bookings are automatically saved to `data/bookings.csv` in the following format:
-
-```
-TKT-00001,Alice,VIP,1,2026-04-24 10:30:00,1,3
-TKT-00002,Alice,VIP,2,2026-04-24 10:30:00,1,3
-```
-
-On each program launch, `BookingManager` reads this file and restores all confirmed bookings,
-seat occupancy, and the booking counter — so your data is never lost between sessions.
+All bookings are automatically saved to `data/bookings.csv`.
